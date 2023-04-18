@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Designs- The Dream Store</title>
+    <link rel="stylesheet" href="college.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;0,500;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="logoa.png" alt="logo image" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+				<li><a href="">Hiring</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="cart.png" alt="cart image" width="30px" height="30px" >
+        <img src="dresses/menu_icon.png" class="menu-icon" onclick="menutoggle()" >
+        
+    </div>
+</div>
+<div class="small-container">
+	 <p class="p">We are hiring Lady Designers and Sales Executives.*Offering Very Good Salary</p>
+	 <br>
+	 <br>
+		
+		<form >
+		  <ul class="ul">
+             <li class="li">NAME:&nbsp;<input type="text" placeholder="enter your name"  name=""> </li>
+             <li class="li">MOBILE NO.:&nbsp;<input type="text" placeholder="enter your phone" name=""> </li></ul>
+                  <br>
+                <br>
+                <br>
+			<ul class="ull">
+            <li class="li">EMAIL :&nbsp;<input type="email" placeholder="enter your email" name=""></li>
+            <li class="li">FILE UPLOAD:&nbsp;<input type="upload" placeholder="upload" name=""></li>
+             </ul>
+
+            <center> <button>SUBMIT</button></center>
+		</form>
+</div>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			  <div class="footer-col-1">
+				  <h3>The  Dream store<h3>
+				  <p>visit our website for Designer Dresses.</p>
+				  <div class="app-logo">
+					   <img src="dresses/play-store.png" alt="" >
+					   <img src="dresses/app_store.png" alt="">
+				  </div>
+			  </div>
+			  <div class="footer-col-2">
+				  <img src="logoa.png" width="125px">
+				  <p>Our purpose is to provide you worthy clothes,Your Dream dresses which can give a Boom to your personality.</p>
+			  </div>
+			  <div class="footer-col-3">
+				  <h3>Useful Links<h3>
+				  <ul>
+					<li>Coupons</li>
+					<li>Blog Post</li>
+					<li>Return Policy</li>
+					<li>Join Affiliate</li>
+				  </ul>
+			  </div>
+			 <div class="footer-col-3">
+				  <h3>Follow us<h3>
+				  <ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>Youtube</li>
+				  </ul>
+			  </div>
+		   </div>
+			   <hr>
+		 <p class="Copyright">Copyright 2021 - thedreamstore</p>
+		</div>
+ </div> 
+ <!--------------------js for toggle------------------------>
+	 <script>
+		var MenuItems = document.getElementById("MenuItems");
+		MenuItems.style.maxHeight = "0px";
+		function menutoggle(){
+			 if(MenuItems.style.maxHeight == "0px"){
+					 MenuItems.style.maxHeight == "200px";}
+			 else{
+					MenuItems.style.maxHeight == "0px";
+				}
+		}
+	</script>
+	  
+ </body>
+ </html>
